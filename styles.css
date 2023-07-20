@@ -87,6 +87,7 @@
 
 
 #board{
+  opacity: 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -126,7 +127,6 @@
 }
 .header { 
   grid-area: 1/6/3/8;
-  background-color: rgb(165, 42, 118);
   display:flex;
   justify-content: end;
   align-items: center;

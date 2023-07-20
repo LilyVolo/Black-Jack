@@ -92,7 +92,7 @@ btnLetsGo.addEventListener('click', () => {
     if (bet!=0 && bet <= 3) {
         countOfTokens -= bet
         console.log(bet, countOfTokens, 'первая проверка')
-
+        board.style.opacity = 1;
       gsap.to(".overlay", { 
         y: -700 ,
         delay: 0.5, 
