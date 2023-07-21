@@ -99,7 +99,7 @@ btnLetsGo.addEventListener('click', () => {
         duration: 2,
         opacity: .8,
         ease: "power1.out", 
-        force3D: true
+        force3D: true,
     })
    setTimeout(
     ()=> {
